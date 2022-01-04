@@ -14,5 +14,5 @@ app.use("/", viewRoute);
 app.use("/api", apiRoute);
 
 app.listen(PORT, () =>
-  console.log(`App listenintg at http://localhost:${PORT}`)
+  console.log(`App listening at http://localhost:${PORT}`)
 );
